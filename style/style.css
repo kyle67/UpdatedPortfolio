@@ -1,0 +1,200 @@
+body {
+    background-image: url("../images/stonehaven.png");
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    font-family: 'Georgia', Times;
+    background-color: white;
+    height: 50px;
+}
+
+footer {
+    background-color: #636363;
+    height: 50px;
+    border-top: solid 7px #29658a;
+    clear: both;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+
+.sidebar {
+    background-color: white;
+    width:270px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    float: right;
+}
+
+.box {
+    background-color: white;
+    width: 620px;
+    margin-top:25px;
+    margin-bottom: 50px;
+    display: inline-block;
+    padding: 15px;
+    float: left;
+}
+
+.box-image {
+    width: 200px;
+    height: 150px;
+    padding: 25px;
+    margin: 15px;
+
+
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 25px;
+    position:absolute;
+    left: 0;
+    padding: 12.5px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.positioning {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    right:0;
+    padding: 17px;
+}
+
+.menu li {
+    display: inline;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+
+.menu a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.photo {
+    width: 175px;
+    float: left;
+    margin: 15px;
+}
+
+.box p {
+    line-height: 1.6;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777777;
+}
+
+.box-title {
+    color: #4aaaa5;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px;
+    border-bottom: solid 3px #dad5d5;
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 200;
+    display: block;
+    font-size: 10px;
+    color: #fff;
+}
+.small-contact {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.icons {
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+}
+
+.icons .github {
+  color: #1e1e1e;
+}
+
+.icons .linkedin {
+    color: #2a548b;
+}
+
+.icons .stackoverflow {
+    color: #ffb00e;
+    font-size: 40px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container-input {
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.image-box {
+    position: relative;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.image-item {
+    width: 245.5px;
+}
+
+.image-banner {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 215.5px;
+    background: teal;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    opacity: 0.85;
+}
+
+
+
