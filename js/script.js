@@ -48,16 +48,18 @@ $(document).ready(function(){
             size: 152,
             onStep: function(from, to, percent){
                 $(this.el).find('.percent').text(Math.round(percent));
-            }
-        
-        });
-        
-    }
+              }
+           });
+         }
+       }); 
 
-    });
-    
-          
-        
+       $(".counter").each(function(){
+           var element = $(this);
+           var endVal = parseInt(element.text());
+
+           element.countup(endVal);
+       })
+       
     });
 
 
