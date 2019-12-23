@@ -212,7 +212,7 @@
 }
 
 .itemsContainer {
-    width: 100%
+    width: 100%;
 }
 
 .items li img {
@@ -248,6 +248,14 @@
     background-color: grey;
     position: relative;
     display: inline-block;
+
+    -moz-transition: all 0.2s linear, 0.2s;
+    -webkit-transition: all 0.2s linear, 0.2s;
+    -ms-transition: all 0.2s linear, 0.2s;
+    -o-transition: all 0.2s linear 0.2s;
+    transition: all 0.2s linear, 0.2s;
+
+   
 }
 
 .items .imageOverlay {
@@ -259,14 +267,32 @@
     top: 0px;
     opacity: 0;
 
-    -webkit-transition: all 0.2s linear, 1s;
     -moz-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear, 1s;
+    -webkit-transition: all 0.2s linear, 1s;
     -ms-transition: all 0.2s linear, 1s;
-    -transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear 1s;
+    transition: all 0.2s linear, 1s;
+
 }
 
 .items .item:hover .imageOverlay {
     opacity: 1;
+}
 
+.items .openButton {
+     float: left;
+     left: -200px;
+}
+
+.items .projectLink {
+     float: right;
+     right: -200px;
+}
+
+.items .item:hover .openButton {
+    left: 0px;
+}
+
+.items .item:hover .projectLink {
+    right: 0px;
 }
