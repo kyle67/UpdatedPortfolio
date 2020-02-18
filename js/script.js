@@ -25,7 +25,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Full Stack Developer", "Math Instructional Coach", "Educational Consultant"],
+        strings: ["Full Stack Developer", "Math Instructional Coach", "Curriculm Writer"],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
