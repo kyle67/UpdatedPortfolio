@@ -155,11 +155,44 @@
 .squareIcon {
     position: absolute;
     left: 50%;
-    top: -30px;
+    top: 105px;
     width: 40%;
     height: 60px;
     font-size: 45px;
     margin-left:-20%;
+    color: #444;
+}
+
+.squareIcon1 {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left:-25%;
+    color: #444;
+}
+
+.squareIcon2 {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left:-15%;
+    color: #444;
+}
+
+.squareIcon3 {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left:-10%;
     color: #444;
 }
 
