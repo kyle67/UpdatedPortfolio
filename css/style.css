@@ -152,7 +152,7 @@
     margin: 0;
 }
 
-.squareIcon {
+.squareIcon  {
     position: absolute;
     left: 50%;
     top: 105px;
@@ -161,6 +161,7 @@
     font-size: 45px;
     margin-left:-20%;
     color: #444;
+    
 }
 
 .squareIcon1 {
@@ -405,4 +406,6 @@
     height: 100%;
     background: url(../images/loader.gif) center center no-repeat;
 }
+
+
 
