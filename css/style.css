@@ -172,7 +172,8 @@
     height: 60px;
     font-size: 45px;
     margin-left:-25%;
-    color: #444;
+    color:black;
+    ;
 }
 
 .squareIcon2 {
@@ -407,3 +408,49 @@
     background: url(../images/loader.gif) center center no-repeat;
 }
 
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+    background-color:royalblue ;
+    
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-github {
+    background:gray;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background:gray;
+    color: white;
+  }
+
+   /* Facebook */
+   .fa-linkedin {
+    background:gray;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-envelope {
+    background:gray;
+    color: white;
+    justify-content: center;
+  }
+
+  .fa {
+    margin: 0 5px;
+  }
